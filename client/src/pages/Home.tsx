@@ -166,16 +166,32 @@ export default function Home() {
 
   const projects = [
     {
-      title: "SOC Monitoring Dashboard",
+      title: "Portfolio Website",
+      description: "Designed and developed a modern, responsive portfolio using React, Vite, and Tailwind CSS. Implemented reusable components, dynamic project sections, and smooth UI animations to enhance user experience. Integrated version control with GitHub and deployed using Vercel with automated CI/CD.",
+      images: ["/projects/portfolio.jpg"],
+      link: "https://github.com/mariamibrahim124/mariiam-ibrahiim-portfolio.git",
+    },
+    {
+      title: "LetsDefend labs",
       description:
-        "Built a simulated SOC dashboard using ELK stack to monitor logs and detect threats.",
-      images: ["/certificates/cyber.jpg"],
+        "Practicing real-world SOC scenarios and incident response simulations on Let’sDefend platform.",
+      images: ["/projects/lets.jpg"],
       //link: "https://github.com/yourusername/project1", //لو حابب تضيف لينك للمشروع على جت هاب
     },
     {
-      title: "Network Vulnerability Scan",
-      description: "Performed vulnerability assessment using Nmap & OpenVAS.",
+      title: "TryHackMe Labs",
+      description: "Practicing offensive security and penetration testing fundamentals through hands-on labs on TryHackMe.",
       images: ["/projects/project2.jpg"],
+    },
+    {
+      title: "CCNA Project",
+      images: ["/projects/ccna.jpg", "/projects/ccna2.jpg"],
+      description: "Designed and implemented a multi-router network topology using Cisco Packet Tracer, demonstrating proficiency in routing protocols, VLANs, and network security configurations.",
+    },
+    {
+      title: "Web project1",
+      description: "Created several web projects using HTML, CSS, and JavaScript to demonstrate front-end development skills and responsive design principles.",
+      images: ["/projects/web.jpg"],
     },
   ];
 
