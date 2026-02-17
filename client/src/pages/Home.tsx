@@ -20,7 +20,7 @@ import {
  */
 
 export default function Home() {
-  const profileImage = "/profile image.jpg";
+  const profileImage = "/ME.png";
   const heroImage =
     "https://private-us-east-1.manuscdn.com/sessionFile/zwu9F6Br7t7xvImCsSQ1lw/sandbox/m2gVXjCuy6Vh4JQbuHmR3b-img-1_1770757068000_na1fn_aGVyby1iYWNrZ3JvdW5k.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvend1OUY2QnI3dDd4dkltQ3NTUTFsdy9zYW5kYm94L20yZ1ZYakN1eTZWaDRKUWJ1SG1SM2ItaW1nLTFfMTc3MDc1NzA2ODAwMF9uYTFmbl9hR1Z5YnkxaVlXTnJaM0p2ZFc1ay5wbmc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=mlNdrWz3lEZU3FgV0CDTXjugtL4IC42U9YG48u2aYUlllP4ibNTZrrn~TTnMG-WeZZ9GbzWIAplxJ5kXmpu~0rzsgCwAFKhRUreONL1i-bX6D~5kAela1OAFseHs-PBcvx2MDlSl-VPyMkv2t3eyeT58xtiojtCuUZvsWFyuKVZMBgKI0LgSrQWcfnKX4IrUTjPTlbkZ-pK~fGQUro~-BKyDwzbJe7acDJhdG5HIJ9VjD0goJBoB-96ahm4~b75rkGPy8vwBkEkqLlUtusXoK9Sra3y~~6bDBpJYPE2V6jL3hlkdsy4P3zvlEGZrVqIc6~JrTkAcJnjDi~53TY5izw__";
   const techPattern =
@@ -33,134 +33,100 @@ export default function Home() {
 
   const skills = [
     {
-      category: "Networking",
+      category: "Soft Skills",
       items: [
-        { name: "Packet Tracer", level: 90 },
-        { name: "CCNA", level: 90 },
-        { name: "Routing", level: 80 },
-        { name: "Swithing", level: 80 },
-        { name: "VPNs", level: 80 },
+        { name: "Analytical Thinking & Problem Solving", level: 90 },
+        { name: "Data-Driven Decision Making", level: 90 },
+        { name: "Technical Communication & Presentation", level: 85 },
+        { name: "Adaptability & Continuous Learning", level: 80 },
+        { name: "Critical Thinking", level: 80 },
       ],
     },
     {
-      category: "Security",
+      category: "Data Analysis & Visualization",
       items: [
-        { name: "Firewalls", level: 85 },
-        { name: "Network Security", level: 90 },
-        { name: "Ethical Hacking", level: 80 },
-        { name: "SOC Operations", level: 90 },
-        { name: "SSL/TLS", level: 80 },
+        { name: "Pandas", level: 90 },
+        { name: "NumPy", level: 90 },
+        { name: "Matplotlib", level: 85 },
+        { name: "Seaborn", level: 80 },
       ],
     },
     {
       category: "Programming",
       items: [
+        { name: "Visual Studio Code", level: 95 },
         { name: "Python", level: 90 },
         { name: "C++", level: 90 },
         { name: "C#", level: 80 },
         { name: "C", level: 75 },
-        { name: "HTML", level: 85 },
-        { name: "CSS", level: 80 },
-        { name: "Java", level: 60 },
+        { name: "SQL", level: 85 },
+        { name: "R", level: 80 },
       ],
     },
     {
-      category: "Tools & Platforms",
+      category: "Machine Learning & Statistical Analysis",
       items: [
-        { name: "Cisco", level: 80 },
-        { name: "Fortinet FortiGate", level: 85 },
-        { name: "Visual Studio Code", level: 95 },
-        { name: "Linux", level: 80 },
-        { name: "Ubuntu", level: 65 },
-        { name: "Red Hat", level: 60 },
-        { name: "Java", level: 60 },
-        { name: "LetsDefend", level: 80 },
-        { name: "TryHackMe", level: 85 },
+        { name: "Supervised & Unsupervised Learning", level: 90 },
+        { name: "Scikit-learn", level: 85 },
+        { name: "Hypothesis Testing", level: 70 },
+        { name: "Regression Analysis", level: 80 },
+        { name: "Probability Distributions", level: 80 },
+        { name: "Model Evaluation Metrics", level: 85 },
       ],
     },
   ];
 
   const certifications = [
     {
-      name: "IT Essentials from Cisco",
-      link: "https://www.credly.com/badges/a0025e72-7e59-4fe5-a619-12617c182a9b/public_url",
+      name: "Introduction to C#",
+       image: "/certificates/231d3929-be80-44c1-a099-2c5900ae242e.jpg",
     },
     {
-      name: "CCNA: Introduction to Networks",
-      link: "https://www.credly.com/badges/b6f4ed95-8b6e-44ff-9b61-3279c0d9e953/public_url",
+      name: "Digitopia Competition Recognition",
+       image: "/certificates/1758567908720.png",
     },
     {
-      name: "CCNA: Switching, Routing, and Wireless Essentials",
-      link: "https://www.credly.com/badges/ce35557c-6fc6-43a5-b0b8-26e7b24bb3dc/public_url",
+      name: "Artificial Intelligence & Machine Learning from ITI",
+       image: "/certificates/1764277276685.png",
     },
     {
-      name: "CCNA: Enterprise Networking, Security, and Automation",
-      link: "https://www.credly.com/badges/6c6f55c8-861e-45dd-82c9-f2ce0cebbd8a/public_url",
+      name: "Career Direction",
+       image: "/certificates/Michael.png",
     },
-    { name: "Programming Essentials in C++", 
-      image: "/certificates/C++.jpg" },
-    {
-      name: "Cyber Security Fundamentals from ITI",
-      image: "/certificates/cyber.jpg",
-    },
-    {
-      name: "Fortinet FortiGate 7.4 Administrator",
-      link: "https://www.credly.com/badges/9f37d65c-cbc6-4625-9d64-8278a54c4c68/public_url",
-    },
-    {
-      name: "Network Basics from Great Learning",
-      image: "certificates/network.jpg",
-    },
-    {
-      name: "Introduction to Cyber Security from Cisco",
-      link: "https://www.credly.com/badges/728f7c78-43a7-494b-a37f-3f4147b85b23/public_url",
-    },
-    {
-      name: "LEAN Manufacturing certificate from ELARABY Group",
-      image: "/certificates/lean.jpg",
-    },
+    { name: "Getting Started with Deep Learning", 
+      image: "/certificates/nvidia.png" },
+   
   ];
 
   const trainings = [
     {
-      title: "DEPI Round 4, Information Security",
+      title: "DEPI Round 4, Microsoft Machine Learning & AI Training",
       period: "11/2025 – 07/2026",
       description:
-        "Advanced training in cybersecurity fundamentals, SOC operations, and Cairo security tools",
-      images: [
-        "/training/Depi/depi.jpg", 
-        "/training/Depi/depi2.jpg"
-      ],
+        "Machine Learning track under the Digital Egypt Pioneers Initiative (DEPI), covering supervised and unsupervised learning, data preprocessing, and model evaluation techniques.",
     },
     {
-      title: "NTI x Fortinet Summer Training",
-      period: "07/2025 – 08/2025",
+      title: "Artificial Intelligence & Machine Learning, ITI",
+      period: "08/2025 – 09/2025",
       description:
-        "Firewall policies & NAT, routing, VPNs, SSL/TLS inspection, SD-WAN, HA, and diagnostics",
-      images: [
-        "/training/Fortinet/fortinet.jpg",
-        "/training/Fortinet/fortinet2.jpg",
-        "/training/Fortinet/fortinet3.jpg",
-        "/training/Fortinet/fortinet4.jpg",
-      ],
+        "Completed AI & Machine Learning training at ITI, focusing on ML algorithms, data analysis, and model development.",
     },
     {
-      title: "Cyber Security Trainee, ITI",
-      period: "05/2025 – 06/2025",
+      title: "Introduction to C#",
       description:
-        "Cybersecurity Fundamentals covering network basics, ethical hacking, and network security",
+        "Completed an introductory training in C#, covering core programming concepts including OOP principles, data types, control structures, and basic application development.",
     },
     {
-      title: "CCNA Training, NTI",
-      period: "08/2023 – 09/2023",
+      title: "Getting Started with Deep Learning, NVIDIA",
+      period: "08/2025",
       description:
-        "Intensive training covering all core CCNA topics including IP addressing, subnetting, and routing protocols",
-      images: [
-        "/training/ccna/ccna.jpg",
-        "/training/ccna/ccna2.jpg",
-        "/training/ccna/ccna3.jpg",
-        "/training/ccna/ccna4.jpg",
-      ],
+        "Completed a foundational training in Deep Learning, covering neural networks, backpropagation, and building basic models using Python.",
+    },
+    {
+      title: "Career Direction",
+      period: "04/2025",
+      description:
+        "Completed a Career Direction program focused on career planning, CV writing, interview skills, personal branding, and professional development.",
     },
   ];
 
@@ -168,30 +134,34 @@ export default function Home() {
     {
       title: "Portfolio Website",
       description: "Designed and developed a modern, responsive portfolio using React, Vite, and Tailwind CSS. Implemented reusable components, dynamic project sections, and smooth UI animations to enhance user experience. Integrated version control with GitHub and deployed using Vercel with automated CI/CD.",
-      images: ["/projects/portfolio.jpg"],
-      link: "https://github.com/mariamibrahim124/mariam-portfolio.git",
+      images: ["/projects/WhatsApp Image 2026-02-17 at 12.28.25 AM.jpeg"],
+    
     },
     {
-      title: "LetsDefend labs",
+      title: "Merge Generative Model",
       description:
-        "Practicing real-world SOC scenarios and incident response simulations on Let’sDefend platform.",
-      images: ["/projects/lets.jpg"],
-      //link: "https://github.com/yourusername/project1", //لو حابب تضيف لينك للمشروع على جت هاب
+        "Designed and implemented a Merge Generative Model to combine outputs from multiple generative approaches, enhancing prediction quality and model robustness. Applied data preprocessing, model evaluation techniques, and performance optimization to improve overall accuracy.",
+      images: ["/projects/generative.png"],
     },
     {
-      title: "TryHackMe Labs",
-      description: "Practicing offensive security and penetration testing fundamentals through hands-on labs on TryHackMe.",
-      images: ["/projects/project2.jpg"],
+      title: "Medical RAG System",
+      description: "Developed a Medical Retrieval-Augmented Generation (RAG) system to provide accurate, context-aware medical responses by integrating document retrieval with generative language models. Implemented data indexing, semantic search, and response generation while ensuring reliable information extraction from medical sources",
+      images: ["/projects/medical.png"],
     },
     {
-      title: "CCNA Project",
-      images: ["/projects/ccna.jpg", "/projects/ccna2.jpg"],
-      description: "Designed and implemented a multi-router network topology using Cisco Packet Tracer, demonstrating proficiency in routing protocols, VLANs, and network security configurations.",
+      title: "Image Processing",
+      images: ["/projects/Screenshot 2026-02-16 231116.png"],
+      description: "Developed image processing solutions applying techniques such as filtering, edge detection, image enhancement, and feature extraction. Utilized Python-based libraries to analyze and transform images for improved visual quality and data interpretation",
     },
     {
-      title: "Web project1",
-      description: "Created several web projects using HTML, CSS, and JavaScript to demonstrate front-end development skills and responsive design principles.",
-      images: ["/projects/web.jpg"],
+      title: "Sentiment Analysis",
+      description: "Developed a Sentiment Analysis model to classify text data into sentiment categories using NLP techniques, including text preprocessing, tokenization, and feature extraction. Trained and evaluated machine learning models to improve classification accuracy and performance",
+      images: ["/projects/sentiment.png"],
+    },
+    {
+      title: "Neural Networks",
+      description: "Designed and implemented Neural Network models to solve predictive tasks, applying forward and backpropagation techniques, optimization algorithms, and performance evaluation metrics. Conducted data preprocessing and hyperparameter tuning to enhance model accuracy and generalization.",
+      images: ["/projects/Screenshot 2026-02-16 231417.png"],
     },
   ];
 
@@ -201,7 +171,7 @@ export default function Home() {
       <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur border-b border-border">
         <div className="container max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
           <h1 className="text-2xl font-bold text-accent">
-            <a href="#home">MI</a></h1>
+            <a href="#home">MS</a></h1>
           <div className="flex gap-6 items-center">
             <a href="#about" className="hover:text-accent transition-colors">
               About
@@ -248,34 +218,34 @@ export default function Home() {
                   Welcome to my portfolio
                 </p>
                 <h1 className="text-5xl md:text-6xl font-bold text-foreground">
-                  Mariam Ibrahim
+                  Michael Samy 
                 </h1>
                 <p className="text-2xl text-muted-foreground">
-                  Network Security Engineer
+                  AI Engineer
                 </p>
               </div>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Entry-level Network Security Engineer with hands-on training in
-                CCNA, Fortinet, and cybersecurity fundamentals. Experienced in
-                configuring firewalls, VPNs, routing, and network security labs.
+                Entry-level AI Engineer with hands-on training in
+                machine learning, neural networks, and deep learning. Experienced in
+                implementing and optimizing AI models for various applications.
               </p>
               <div className="flex gap-4 pt-4">
                 <a
-                  href="mailto:mariam.ibrahim2486@gmail.com"
+                  href="mailto:michelsamy58@gmail.com"
                   className="inline-flex items-center gap-2 bg-accent text-accent-foreground px-6 py-3 rounded-lg hover:bg-accent/90 transition-colors font-semibold"
                 >
                   <Mail size={20} />
                   Get in Touch
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/1VtFquAHPxr3D22V6RQUx14l3aOZNBPGx/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1zUCz1jP9DE47yPADMsr8W4dS4QhsYqlM/view?usp=sharing"
                   target="_blank"
                   className="inline-flex items-center gap-2 bg-accent text-accent-foreground px-6 py-3 rounded-lg hover:bg-accent/90 transition-colors font-semibold"
                 >
                   View CV
                 </a>
                 <a
-                  href="/Mariam_Ibrahim_Resume.pdf"
+                  href="/Michael's CV..pdf"
                   download
                   className="inline-flex items-center gap-2 bg-accent text-accent-foreground px-6 py-3 rounded-lg hover:bg-accent/90 transition-colors font-semibold"
                 >
@@ -289,7 +259,7 @@ export default function Home() {
               <div className="relative w-[300px] h-[400px] rounded-2xl overflow-hidden border-2 border-accent shadow-2xl">
                 <img
                   src={profileImage}
-                  alt="Mariam Ibrahim"
+                  alt="Michael Samy"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-background/40 to-transparent" />
@@ -306,20 +276,16 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-card p-8 rounded-xl border border-border hover:border-accent transition-colors">
               <Shield className="text-accent mb-4" size={32} />
-              <h3 className="text-xl font-bold mb-3">Security Focus</h3>
+              <h3 className="text-xl font-bold mb-3">Machine Learning Focus</h3>
               <p className="text-muted-foreground">
-                Specialized in network security, firewall configuration, and
-                cybersecurity fundamentals with hands-on SOC operations
-                experience.
+                Specialized in supervised and unsupervised learning, neural networks, and statistical modeling with hands-on experience in model development, evaluation, and optimization across real-world projects.
               </p>
             </div>
             <div className="bg-card p-8 rounded-xl border border-border hover:border-accent transition-colors">
               <Code className="text-accent mb-4" size={32} />
-              <h3 className="text-xl font-bold mb-3">Technical Skills</h3>
+              <h3 className="text-xl font-bold mb-3">Data Science & AI Skills</h3>
               <p className="text-muted-foreground">
-                Proficient in Python, C++, and network troubleshooting with
-                practical experience in Cisco Packet Tracer and Linux
-                environments.
+                Proficient in Python, Scikit-learn, and data analysis libraries (Pandas, NumPy) with practical experience in NLP, image processing, and retrieval-augmented generation (RAG) systems.
               </p>
             </div>
             <div className="bg-card p-8 rounded-xl border border-border hover:border-accent transition-colors">
@@ -569,7 +535,7 @@ export default function Home() {
           <h2 className="text-4xl font-bold mb-12 text-accent">Get In Touch</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <a
-              href="mailto:mariam.ibrahim2486@gmail.com"
+              href="mailto:michelsamy58@gmail.com"
               className="bg-card p-8 rounded-xl border border-border hover:border-accent transition-all hover:shadow-lg text-center group"
             >
               <Mail
@@ -578,11 +544,11 @@ export default function Home() {
               />
               <h3 className="font-bold mb-2">Email</h3>
               <p className="text-muted-foreground break-all">
-                mariam.ibrahim2486@gmail.com
+                michelsamy58@gmail.com
               </p>
             </a>
             <a
-              href="https://linkedin.com/in/mariam-ibrahim-ayad"
+              href="https://linkedin.com/in/michaelsamy1"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-card p-8 rounded-xl border border-border hover:border-accent transition-all hover:shadow-lg text-center group"
@@ -592,10 +558,10 @@ export default function Home() {
                 size={32}
               />
               <h3 className="font-bold mb-2">LinkedIn</h3>
-              <p className="text-muted-foreground">mariam-ibrahim-ayad</p>
+              <p className="text-muted-foreground">Michael Samy</p>
             </a>
             <a
-              href="https://github.com/mariamibrahim124"
+              href="https://github.com/Michael-Samy0"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-card p-8 rounded-xl border border-border hover:border-accent transition-all hover:shadow-lg text-center group"
@@ -605,10 +571,10 @@ export default function Home() {
                 size={32}
               />
               <h3 className="font-bold mb-2">GitHub</h3>
-              <p className="text-muted-foreground">mariamibrahim124</p>
+              <p className="text-muted-foreground">Michael-Samy0</p>
             </a>
             <a
-              href="tel:+201205650311"
+              href="tel:+201225637241"
               className="bg-card p-8 rounded-xl border border-border hover:border-accent transition-all hover:shadow-lg text-center group"
             >
               <Phone
@@ -617,12 +583,12 @@ export default function Home() {
               />
               <h3 className="font-bold mb-2">Mobile</h3>
               <p className="text-muted-foreground break-all">
-                +20 120 565 0311
+                +20 122 563 7241
               </p>
             </a>
             {/* WhatsApp */}
             <a
-              href="https://wa.me/201205650311"
+              href="https://wa.me/201225637241"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-card p-8 rounded-xl border border-border hover:border-accent transition-all hover:shadow-lg text-center group"
@@ -633,7 +599,7 @@ export default function Home() {
               />
               <h3 className="font-bold mb-2">WhatsApp</h3>
               <p className="text-muted-foreground break-all">
-                +20 120 565 0311
+                +20 122 563 7241
               </p>
             </a>
           </div>
@@ -643,9 +609,9 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t border-border py-8 bg-card/50">
         <div className="container max-w-6xl mx-auto px-4 text-center text-muted-foreground">
-          <p>© Mariam Ibrahim Ayad. All rights reserved.</p>
+          <p>© Michael Samy . All rights reserved.</p>
           <p className="text-sm mt-2">
-            Network Security Engineer | Cybersecurity Specialist
+            AI & Machine Learning Engineer | Software Developer
           </p>
         </div>
       </footer>
