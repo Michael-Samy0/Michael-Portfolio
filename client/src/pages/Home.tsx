@@ -135,6 +135,7 @@ export default function Home() {
       title: "Portfolio Website",
       description: "Designed and developed a modern, responsive portfolio using React, Vite, and Tailwind CSS. Implemented reusable components, dynamic project sections, and smooth UI animations to enhance user experience. Integrated version control with GitHub and deployed using Vercel with automated CI/CD.",
       images: ["/projects/WhatsApp Image 2026-02-17 at 12.28.25 AM.jpeg"],
+      link: "https://github.com/Michael-Samy0/Michael-Portfolio.git",
     
     },
     {
