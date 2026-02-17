@@ -216,7 +216,7 @@ export default function Home() {
             <div className="space-y-6 animate-fade-in">
               <div className="space-y-2">
                 <p className="text-accent font-semibold text-lg">
-                  Welcome to my portfolio
+                  Welcome to my portfolio.
                 </p>
                 <h1 className="text-5xl md:text-6xl font-bold text-foreground">
                   Michael Samy 
